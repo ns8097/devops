@@ -1,0 +1,69 @@
+    1  nano apple.txt
+    2  yum install nano -y
+    3  nano apple.txt
+    4  find /tmp -mtime -7
+    5  clear
+    6  find / -name apple*.*
+    7  find / -name apple*.txt
+    8  find / -name apple*.txt > test.txt
+    9  cat test.txt
+   10  find / -type f -name "*.log"
+   11  cd /
+   12  pwd
+   13  find / -size +100M
+   14  find / -size +10M
+   15  find / -size +50M
+   16  find / -type f -cmin -60
+   17  clear
+   18  ls
+   19  cd /tmp
+   20  ls
+   21  cd piit
+   22  diff apple.txt orange.txt
+   23  nano orange.txt
+   24  diff apple.txt orange.txt
+   25  file /etc/passwd
+   26  file /tmp/piit/apple.txt
+   27  touch nayem
+   28  file nayem
+   29  nano nayem
+   30  file nayem
+   31  cat apple.txt
+   32  cat nayem
+   33  grep - r "piit"
+   34  grep - r "piit" /tmp
+   35  grep -r "piit" /tmp
+   36  cat test.txt
+   37  grep -r "devops" /tmp
+   38  grep -r "devOps" /tmp
+   39  grep -r "AWS" /tmp
+   40  cat  apple.txt
+   41  grep -r "REDHAT" /tmp
+   42  grep -ri "REDHAT" /tmp
+   43  grep -ri "ec2*" /etc/passwd
+   44  usermod -l orange apple
+   45  usermod --help
+   46  useradd apple
+   47  cat /etc/passwd
+   48  usermod -l orange apple
+   49  cat /etc/passwd
+   50  clear
+   51  ls
+   52  cat apple.txt
+   53  sed -i's/aws
+   54  sed -i 's/aws/azure/g' apple.txt
+   55  cat apple.txt
+   56  sed -i 's/kubernetes/azure/g' apple.txt
+   57  cat apple.txt
+   58  less apple.txt
+   59  ip a >> apple.txt
+   60  less apple.txt
+   61  head apple.txt
+   62  tail apple.txt
+   63  head apple.txt
+   64  clear
+   65  tail apple.txt
+   66  clear
+   67  tail -n 3 apple.txt
+   68  head -n 3 apple.txt
+   69  history
